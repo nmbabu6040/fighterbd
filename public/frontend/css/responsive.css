@@ -1,0 +1,384 @@
+/* X-Small devices (portrait phones,320px to 575px) */
+@media (min-width: 320px) and (max-width: 575px) {
+  .menubar .navbar-brand p {
+    font-size: 24px;
+  }
+
+  .navbar-toggler {
+    padding: 3px;
+    color: #ec640e;
+    border: 2px solid hsl(23, 89%, 49%);
+  }
+
+  .menubar .navbar-nav .nav-item .nav-link {
+    font-size: 14px;
+    margin-top: 3px;
+    margin-left: 40%;
+  }
+  .carousel-control-next,
+  .carousel-control-prev {
+    display: none;
+  }
+  .sliderBanner .carousel-inner .carousel-caption {
+    display: none;
+  }
+
+  .aboutPart {
+    padding: 20px 0px;
+  }
+
+  .aboutContent h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .aboutContent p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+
+  .aboutContent a.cmnBtn {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+
+  .servicePart {
+    padding: 20px 0px;
+  }
+
+  .commonHeader h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .commonHeader p {
+    font-size: 14px;
+    padding: 0 3%;
+  }
+
+  .galleryPart {
+    padding: 20px 0px;
+  }
+
+  .galleryBtn ul li {
+    display: block;
+    padding: 3px 8px;
+    font-size: 10px;
+    margin: 0 2px;
+  }
+  .teamPart {
+    padding: 20px 0px;
+  }
+  footer,
+  .contactPart,
+  .blogPart,
+  .testOverlay {
+    padding: 20px 0px;
+  }
+
+  .testSliderList p {
+    padding: 0 1%;
+    line-height: 1;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+
+  .blogContent h4 a {
+    font-size: 18px;
+  }
+
+  .blogContent p {
+    padding: 20px 0;
+    font-weight: 400;
+    line-height: 1.1;
+    font-size: 14px;
+  }
+}
+
+/* Small devices (landscap phone, 576px to 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .navbar-toggler {
+    color: #ec640e;
+    border: 2px solid hsl(23, 89%, 49%);
+  }
+
+  .menubar .navbar-nav .nav-item .nav-link {
+    font-size: 14px;
+    margin-top: 3px;
+    margin-left: 40%;
+  }
+  .carousel-control-next,
+  .carousel-control-prev {
+    display: none;
+  }
+  .sliderBanner .carousel-inner .carousel-caption {
+    display: none;
+  }
+
+  .sliderBanner .carousel-inner .carousel-caption a.btn2,
+  .sliderBanner .carousel-inner .carousel-caption a.btn1 {
+    padding: 5px 10px;
+    margin: 2px;
+    font-size: 14px;
+  }
+
+  .aboutPart {
+    padding: 20px 0px;
+  }
+
+  .aboutContent h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .aboutContent p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+
+  .aboutContent a.cmnBtn {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+
+  .servicePart {
+    padding: 20px 0px;
+  }
+
+  .commonHeader h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .commonHeader p {
+    font-size: 14px;
+    padding: 0 3%;
+  }
+
+  .galleryPart {
+    padding: 20px 0px;
+  }
+
+  .galleryBtn ul li {
+    display: block;
+    padding: 3px 8px;
+    font-size: 10px;
+    margin: 0 2px;
+  }
+  .teamPart {
+    padding: 20px 0px;
+  }
+  footer,
+  .contactPart,
+  .blogPart,
+  .testOverlay {
+    padding: 20px 0px;
+  }
+
+  .testSliderList p {
+    padding: 0 1%;
+    line-height: 1;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+
+  .blogContent h4 a {
+    font-size: 18px;
+  }
+
+  .blogContent p {
+    padding: 20px 0;
+    font-weight: 400;
+    line-height: 1.1;
+    font-size: 14px;
+  }
+}
+
+/* Medium devices (tablets, 768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-toggler {
+    color: #ec640e;
+    border: 2px solid hsl(23, 89%, 49%);
+  }
+
+  .menubar .navbar-nav .nav-item .nav-link {
+    font-size: 14px;
+    margin-top: 3px;
+    margin-left: 10%;
+  }
+  .carousel-control-next,
+  .carousel-control-prev {
+    display: none;
+  }
+  .sliderBanner .carousel-inner .carousel-caption {
+    bottom: 5%;
+  }
+  .sliderBanner .carousel-inner .carousel-caption h5 {
+    letter-spacing: 2px;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  .sliderBanner .carousel-inner .carousel-caption h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+
+  .sliderBanner .carousel-inner .carousel-caption p {
+    display: none;
+  }
+
+  .slideBtn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .sliderBanner .carousel-inner .carousel-caption a.btn2,
+  .sliderBanner .carousel-inner .carousel-caption a.btn1 {
+    padding: 5px 10px;
+    margin: 2px;
+    font-size: 14px;
+  }
+
+  .aboutPart {
+    padding: 20px 0px;
+  }
+
+  .aboutContent h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .aboutContent p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+
+  .aboutContent a.cmnBtn {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+
+  .servicePart {
+    padding: 20px 0px;
+  }
+
+  .commonHeader h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .commonHeader p {
+    font-size: 14px;
+    padding: 0 3%;
+  }
+
+  .serviceItem {
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    transition: all linear 0.4s;
+  }
+
+  .serviceItem i {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    line-height: 60px;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .serviceItem h4 {
+    font-size: 18px;
+  }
+
+  .serviceItem p {
+    font-size: 14px;
+  }
+
+  .galleryPart {
+    padding: 20px 0px;
+  }
+
+  .galleryBtn ul li {
+    display: block;
+    padding: 3px 8px;
+    font-size: 14px;
+    margin: 0 2px;
+  }
+  .teamPart {
+    padding: 20px 0px;
+  }
+  footer,
+  .contactPart,
+  .blogPart,
+  .testOverlay {
+    padding: 20px 0px;
+  }
+
+  .testSliderList p {
+    padding: 0 1%;
+    line-height: 1;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+
+  .blogContent h4 a {
+    font-size: 18px;
+  }
+
+  .blogContent p {
+    padding: 20px 0;
+    font-weight: 400;
+    line-height: 1.1;
+    font-size: 14px;
+  }
+}
+
+/* Large devices (desktops, 992px to 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .sliderBanner .carousel-inner .carousel-caption {
+    bottom: 1%;
+  }
+  .sliderBanner .carousel-inner .carousel-item img {
+    height: 300px;
+  }
+  .sliderBanner .carousel-inner .carousel-caption h5 {
+    letter-spacing: 3px;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .sliderBanner .carousel-inner .carousel-caption h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+  }
+  .sliderBanner .carousel-inner .carousel-caption p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    padding: 0 3%;
+  }
+  .sliderBanner .carousel-control-next,
+  .sliderBanner .carousel-control-prev {
+    width: 30px;
+    height: 30px;
+  }
+
+  .sliderBanner .carousel-inner .carousel-caption .slideBtn .btn1,
+  .sliderBanner .carousel-inner .carousel-caption .slideBtn .btn2 {
+    padding: 5px 15px;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px to 1399px) */
+@media (min-width: 1200px) and (max-width: 1399px) {
+}
+
+/* XX-Large devices (larger desktops,1400px to up) */
+@media (min-width: 1400px) {
+}
